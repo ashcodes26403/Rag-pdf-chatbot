@@ -20,7 +20,7 @@ def create_llm() -> BaseLanguageModel:
             temperature=Config.Model.TEMPERATURE,
             model_name=Config.Model.REMOTE_LLM,
             max_tokens=Config.Model.MAX_TOKENS,
-            groq_api_key="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"
+            groq_api_key="GROQ_API_KEY"
         )
 
 
